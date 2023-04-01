@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slideContainer">
+        <div class="slides">
+            <img src="/imgs/pexels-photo-1-2406731.jpeg" alt="" class="active">
+            <img src="/imgs/pexels-photo-2-1537086.webp" alt="">
+            <img src="/imgs/pexels-photo-3-2104856.jpeg" alt="">
+            <img src="/imgs/pexels-photo-4-2556430.jpeg" alt="">
+            <img src="/imgs/pexels-photo-5-2900796.jpeg" alt="">
+            <img src="/imgs/pexels-photo-6-5973412.jpeg" alt="">
+            <img src="/imgs/pexels-photo-7-8489076.jpeg" alt="">
+            <img src="/imgs/masjid-al.jpg" alt="">
+            <img src="/imgs/Allah1.png" width="700px" alt="">
+        </div>
+
+        <div class="buttons">
+            <span class="next">&#10095;</span>
+            <span class="prev">&#10094;</span>
+        </div>
+
+        <div class="dotsContainer">
+            <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+            <div class="dot" attr="1" onclick="switchImage(this)"></div>
+            <div class="dot" attr="2" onclick="switchImage(this)"></div>
+            <div class="dot" attr="3" onclick="switchImage(this)"></div>
+            <div class="dot" attr="4" onclick="switchImage(this)"></div>
+            <div class="dot" attr="5" onclick="switchImage(this)"></div>
+            <div class="dot" attr="6" onclick="switchImage(this)"></div>
+            <div class="dot" attr="7" onclick="switchImage(this)"></div>
+            <div class="dot" attr="8" onclick="switchImage(this)"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
